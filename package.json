@@ -1,14 +1,22 @@
 {
   "name": "task-manager",
   "version": "1.0.0",
-  "description": "",
+  "description": "task manager app",
+  "repository": "https://github.com/Quitz321/task-manager",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mongodb": "^3.1.10"
+    "express": "^4.17.1",
+    "mongodb": "^3.4.1",
+    "mongoose": "^5.8.2",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
   }
 }
